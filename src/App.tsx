@@ -3,7 +3,6 @@ import theme from "./assets/theme";
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import "./app.css";
-import Home from "./pages/Home/Home";
 import { Provider } from "react-redux";
 import { store } from "./store";
 import MobileNavbar from "./components/MobileNavbar";

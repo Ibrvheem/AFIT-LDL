@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import { useState } from "react";
 import { StyledButton } from "../../../styled-components/styledButton";
-import { DomainAdd, PersonOutline } from "@mui/icons-material";
+import { PersonOutline } from "@mui/icons-material";
 function Role({ splideRef }: any) {
   // const splideRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);

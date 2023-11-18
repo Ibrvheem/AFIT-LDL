@@ -1,6 +1,5 @@
 import { Box, Container, Theme, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import Card from "./Card";
 import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme: Theme) => {
