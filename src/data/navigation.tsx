@@ -7,20 +7,20 @@ export const navigation = [
   },
   {
     name: "upload",
-    title: "Add Resource",
+    title: "Add Notes",
     icon: "./icons/add.png",
     activeIcon: "./icons/add.png",
   },
   {
     name: "resources",
-    title: "Resources",
+    title: "Lecture Notes",
     icon: "./icons/resources.png",
     activeIcon: "./icons/resources.png",
   },
-  {
-    name: "agents",
-    title: "Agents",
-    icon: "./icons/agents.png",
-    activeIcon: "./icons/agents.png",
-  },
+  // {
+  //   name: "agents",
+  //   title: "Agents",
+  //   icon: "./icons/agents.png",
+  //   activeIcon: "./icons/agents.png",
+  // },
 ];

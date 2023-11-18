@@ -44,18 +44,18 @@ function App() {
     >
       <Provider store={store}>
         <ThemeProvider theme={theme}>
-          {location.pathname != "/signup" && location.pathname != "/signin" && location.pathname != "/upload" ? (
+          {location.pathname != "/signup" && location.pathname != "/signin" && location.pathname != "/upload" && location.pathname != "/" ? (
             <>
               <Navbar />
               <MobileNavbar />
             </>
           ) : null}
           <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<SignIn />} /> */}
             <Route path="/signup" element={<Signup />} />
             <Route path="/tryonecenter" element={<Demo />} />
             <Route path="/company" element={<Company />} />
-            <Route path="/signin" element={<SignIn />} />
+            <Route path="/" element={<SignIn />} />
             {userToken ? (
               <>
                 <Route path="/upload" element={<UploadResource />} />

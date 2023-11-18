@@ -94,7 +94,7 @@ function UploadResource() {
           </Grid>
           <Grid item md={12}>
             <Button sx={{ height: "20rem", width: "100%", borderRadius: "1rem", border: "1px dashed black", margin: "auto !important" }}>
-              <Typography variant="h3">{formik.values.url ? "Resource Added" : "Upload Resource"}</Typography>
+              <Typography variant="h3">{formik.values.url ? "Uploaded" : "Upload Lecture Note"}</Typography>
               <VisuallyHiddenInput
                 type="file"
                 accept=".pdf"

@@ -101,9 +101,9 @@ export default function EditPartnerModal({ handleModalClose, open }: EditPartner
         <Box sx={style} className="center-center">
           <Grid container spacing={2}>
             <Grid item md={12}>
-              <Typography variant="h3">Edit your profile!</Typography>
+              <Typography variant="h3">Edit Info!</Typography>
               <Typography variant="h6" sx={{ margin: "2rem 0rem 0rem 0rem" }}>
-                This information helps users identify you easily. <br /> Don't worry, you can update this in the future
+                This information helps students identify your course. <br /> Don't worry, you can update this in the future
               </Typography>
             </Grid>
 
@@ -115,7 +115,7 @@ export default function EditPartnerModal({ handleModalClose, open }: EditPartner
             </Grid> */}
             <Grid item md={12}>
               <Typography variant="h6" sx={{ fontWeight: 300, color: "black" }}>
-                Partner Logo
+                Course Icon
               </Typography>
 
               <Button
@@ -145,7 +145,7 @@ export default function EditPartnerModal({ handleModalClose, open }: EditPartner
             </Grid>
             <Grid item md={12}>
               <Typography variant="h6" sx={{ fontWeight: 300 }}>
-                Partner Category
+                Course Title -- Course Code
               </Typography>
 
               <StyledInput
@@ -160,7 +160,7 @@ export default function EditPartnerModal({ handleModalClose, open }: EditPartner
             </Grid>
             <Grid item md={12}>
               <Typography variant="h6" sx={{ fontWeight: 300 }}>
-                Partner Description
+                Course Description
               </Typography>
 
               <StyledInput

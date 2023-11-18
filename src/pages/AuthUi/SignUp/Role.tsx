@@ -26,12 +26,12 @@ function Role({ splideRef }: any) {
             fullWidth
             variant={activeSlide == 0 ? "contained" : "outlined"}
             sx={{ fontWeight: 400, fontSize: "1.3rem" }}
-            startIcon={<DomainAdd />}
+            startIcon={<PersonOutline />}
             onClick={() => {
               handleSlideChange(0);
             }}
           >
-            Partner Sign up
+            Lecturer Sign up
           </StyledButton>
         </Grid>
         <Grid item md={6} sm={12} xs={12}>
@@ -45,7 +45,7 @@ function Role({ splideRef }: any) {
               handleSlideChange(1);
             }}
           >
-            User Sign Up
+            Student Sign Up
           </StyledButton>
         </Grid>
       </Grid>

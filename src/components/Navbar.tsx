@@ -56,10 +56,10 @@ function Navbar() {
           <Grid item md={6} sx={{ display: "flex", alignItems: "center", gap: "5rem" }}>
             <Link to="/">
               <Typography color="primary" variant="h3">
-                One<span style={{ color: "black" }}>Center</span>
+                AFIT<span style={{ color: "black" }}> LDL</span>
               </Typography>
             </Link>
-            <ul className={classes.ul}>
+            {/* <ul className={classes.ul}>
               <a href="#features">
                 <li>Features</li>
               </a>
@@ -73,7 +73,7 @@ function Navbar() {
               <Link to="/tryonecenter">
                 <li>Try OneCenter</li>
               </Link>
-            </ul>
+            </ul> */}
           </Grid>
           <Grid item md={6} sx={{ display: "flex", justifyContent: "end" }}>
             <ul className={classes.ul}>

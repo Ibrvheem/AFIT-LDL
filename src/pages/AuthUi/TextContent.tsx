@@ -18,7 +18,7 @@ function TextContent() {
     <Container className={`space-btw ${classes.text}`} sx={{ height: "100%", flexDirection: "column" }}>
       {" "}
       <Typography color="white" variant="h3">
-        <Link to="/">OneCenter</Link>
+        <Link to="/">AFIT LDL</Link>
       </Typography>
       <Box className={classes.text}>
         <Typography color="white" variant="h2">
@@ -29,7 +29,8 @@ function TextContent() {
           dignissimos similique modi hic aliquid qui.
         </Typography>
       </Box>
-      <Card />
+      <div></div>
+      {/* <Card /> */}
     </Container>
   );
 }
