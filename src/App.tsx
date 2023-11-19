@@ -9,7 +9,6 @@ import MobileNavbar from "./components/MobileNavbar";
 import Demo from "./pages/TryOneCenter/Demo";
 import { SipProvider } from "react-sip";
 import Company from "./pages/Company/Company";
-import SignIn from "./pages/AuthUi//";
 import Signup from "./pages/AuthUi/SignUp/Signup";
 import UploadResource from "./pages/Dashboard/UploadResource";
 import Resources from "./pages/Dashboard/Resources/Resources";
@@ -17,6 +16,7 @@ import Agents from "./pages/Dashboard/Agents/Agents";
 import { useEffect } from "react";
 import PartnerOverview from "./pages/Dashboard/PartnerOverview/PartnerOverview";
 import PartnerInfo from "./pages/TryOneCenter/PartnerInfo";
+import SignIn from "./pages/AuthUi/SignIn/SignIn";
 
 function App() {
   const location = useLocation();
