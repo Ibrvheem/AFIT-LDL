@@ -117,7 +117,7 @@ function Navbar() {
                   </Popper>
                 </>
               ) : (
-                <Link to="/signin">
+                <Link to="/">
                   <Button variant="text" color="secondary" size="large" sx={{ borderRadius: "5rem", textTransform: "none", fontSize: "1.4rem" }}>
                     Sign in
                   </Button>

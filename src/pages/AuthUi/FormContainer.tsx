@@ -47,7 +47,6 @@ const useStyles = makeStyles((theme: Theme) => {
       height: "4rem",
       width: "4rem",
       borderRadius: "50%",
-      backgroundColor: theme.palette.primary.main,
     },
     icon: {
       height: "1.5rem",
@@ -64,7 +63,9 @@ function FormContainer({ children, splideRef }: any) {
         <Grid container>
           <Grid item md={6} className={classes.signUpForm}>
             <Link to="/">
-              <Box className={classes.logoContainer}></Box>
+              <Box className={classes.logoContainer}>
+                <img src="./icons/afit-logo.png" alt="" style={{ width: "150%" }} />
+              </Box>
             </Link>
             <Container className={classes.container}>
               <Role splideRef={splideRef} />

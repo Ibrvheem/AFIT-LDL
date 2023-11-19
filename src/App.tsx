@@ -9,7 +9,7 @@ import MobileNavbar from "./components/MobileNavbar";
 import Demo from "./pages/TryOneCenter/Demo";
 import { SipProvider } from "react-sip";
 import Company from "./pages/Company/Company";
-import SignIn from "./pages/AuthUi/SignIn/SignIn";
+import SignIn from "./pages/AuthUi//";
 import Signup from "./pages/AuthUi/SignUp/Signup";
 import UploadResource from "./pages/Dashboard/UploadResource";
 import Resources from "./pages/Dashboard/Resources/Resources";
@@ -43,7 +43,7 @@ function App() {
     >
       <Provider store={store}>
         <ThemeProvider theme={theme}>
-          {location.pathname != "/signup" && location.pathname != "/signin" && location.pathname != "/upload" && location.pathname != "/" ? (
+          {location.pathname != "/signup" && location.pathname != "/" && location.pathname != "/upload" && location.pathname != "/" ? (
             <>
               <Navbar />
               <MobileNavbar />

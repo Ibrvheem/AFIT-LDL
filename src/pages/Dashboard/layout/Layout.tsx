@@ -34,7 +34,7 @@ function Layout({ children }: LayoutProp) {
           <Box sx={{ width: "100%", gap: "1rem" }} className="align-center">
             <Box className="logoContainer"></Box>
             <Typography variant="h3" color="white">
-              AFIT LDL
+              AFIT DLC
             </Typography>
           </Box>
           <Box sx={{ width: "100%" }}>
@@ -54,7 +54,7 @@ function Layout({ children }: LayoutProp) {
 
               <Grid item md={8} className="flex" sx={{ justifyContent: "flex-end", gap: "1rem" }}>
                 <Link to="/tryonecenter">
-                  <StyledButton variant="contained">Preview on AFIT LDL</StyledButton>
+                  <StyledButton variant="contained">Preview on AFIT DLC</StyledButton>
                 </Link>
               </Grid>
             </Grid>

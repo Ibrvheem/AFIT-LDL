@@ -181,7 +181,7 @@ function MobileNavbar() {
                 </Button>
               </>
             ) : (
-              <Link to="/signin">
+              <Link to="/">
                 <Button variant="contained" color="primary" size="large" sx={{ borderRadius: "5rem", textTransform: "none", fontSize: "1.4rem" }}>
                   Sign in
                 </Button>

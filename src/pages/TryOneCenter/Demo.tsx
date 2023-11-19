@@ -87,7 +87,7 @@ function Demo() {
           <Box sx={style} className="center-center">
             <Typography variant="h5" align="center">
               Oops, you need to{" "}
-              <Link to="/signin" style={{ color: "#0070ff", fontWeight: 600 }}>
+              <Link to="/" style={{ color: "#0070ff", fontWeight: 600 }}>
                 sign-in
               </Link>{" "}
               to use OneCenter or make a call

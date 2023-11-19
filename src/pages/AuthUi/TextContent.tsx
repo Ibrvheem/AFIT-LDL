@@ -16,8 +16,14 @@ function TextContent() {
   return (
     <Container className={`space-btw ${classes.text}`} sx={{ height: "100%", flexDirection: "column" }}>
       {" "}
-      <Typography color="white" variant="h3">
-        <Link to="/">AFIT LDL</Link>
+      <Typography color="white" variant="h5">
+        <Link to="/" className="align-center">
+          <img src="./icons/afit-logo.png" alt="" style={{ width: "100px" }} />
+          <div>
+            AIR FORCE INSTITUTE OF TECHNOLOGY <br />
+            DISTANT LEARNING CENTER{" "}
+          </div>
+        </Link>
       </Typography>
       <Box className={classes.text}>
         <Typography color="white" variant="h2">

@@ -48,7 +48,7 @@ function UserSignUp() {
         {alert && (
           <Alert severity="success" sx={{ fontSize: "1.4rem", width: "100%" }} className="center-center">
             {alert},{" "}
-            <Link to="/signin" style={{ textDecoration: "underline", color: "#3A49F9" }}>
+            <Link to="/" style={{ textDecoration: "underline", color: "#3A49F9" }}>
               Sign in
             </Link>
           </Alert>
@@ -122,7 +122,7 @@ function UserSignUp() {
       <Grid item md={12} sx={{ marginBottom: "1.5rem" }}>
         <Typography variant="h6" color="info" sx={{ fontWeight: 400 }}>
           Have an account?{" "}
-          <Link to="/signin" style={{ textDecoration: "underline", color: "#3A49F9", fontWeight: 600 }}>
+          <Link to="/" style={{ textDecoration: "underline", color: "#3A49F9", fontWeight: 600 }}>
             Sign In
           </Link>
         </Typography>

@@ -25,7 +25,7 @@ function CreateAgentForm({ formik, alertMessage }: any) {
         <Alert severity="error" sx={{ fontSize: "1.4rem", width: "100%" }} className="center-center">
           {alertMessage}.{" "}
           {alertMessage != "Account needs email and password" ? (
-            <Link to="/signin" style={{ textDecoration: "underline", color: "#3A49F9" }}>
+            <Link to="/" style={{ textDecoration: "underline", color: "#3A49F9" }}>
               Sign In
             </Link>
           ) : null}

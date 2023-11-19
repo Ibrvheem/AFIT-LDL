@@ -60,7 +60,6 @@ const useStyles = makeStyles((theme: Theme) => {
       height: "4rem",
       width: "4rem",
       borderRadius: "50%",
-      backgroundColor: theme.palette.primary.main,
     },
     icon: {
       height: "1.5rem",
@@ -128,7 +127,9 @@ function SignIn() {
       <Container>
         <Grid container>
           <Grid item md={6} sm={12} xs={12} className={classes.signInForm}>
-            <Box className={classes.logoContainer}></Box>
+            <Box className={classes.logoContainer}>
+              <img src="./icons/afit-logo.png" alt="" style={{ width: "150%" }} />
+            </Box>
             <Container className={classes.signInContainer}>
               <Box>
                 <Typography variant="h3">Get Started Now</Typography>
@@ -138,7 +139,7 @@ function SignIn() {
                 </Typography>
               </Box>
               <Grid container spacing={2} sx={{ padding: "2rem 0rem" }}>
-                <Grid item md={6} sm={12} xs={12}>
+                {/* <Grid item md={6} sm={12} xs={12}>
                   <StyledButton
                     color="primary"
                     fullWidth
@@ -161,12 +162,12 @@ function SignIn() {
                   >
                     Sign in with Apple
                   </StyledButton>
-                </Grid>
+                </Grid> */}
               </Grid>
               <Divider sx={{ margin: "2rem 0rem" }}>
-                <Typography variant="h6" sx={{ fontWeight: 300 }}>
+                {/* <Typography variant="h6" sx={{ fontWeight: 300 }}>
                   or
-                </Typography>
+                </Typography> */}
               </Divider>
               <Grid container>
                 <Grid item md={12} sm={12} xs={12} sx={{ marginBottom: "1.5rem" }}>
